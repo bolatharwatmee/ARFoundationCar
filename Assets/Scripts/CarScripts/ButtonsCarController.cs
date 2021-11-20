@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CarController : MonoBehaviour
+public class ButtonsCarController : MonoBehaviour
 {
-    [Header("UI Buttons")]
     [Header("Car Properties")]
     [SerializeField] int torquePower = 100;
     [SerializeField] int brakePower = 1000;
